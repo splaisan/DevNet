@@ -288,6 +288,10 @@ section {
   padding:0 10px;
 }
 
+.pb-signup legend {
+  width:280px;
+}
+
 .pb-regform a {
   float:left;
   font-size:11px;
@@ -315,7 +319,8 @@ section {
 }
 
 .pb-regform input[type="text"], .pb-regform input[type="email"] {
-  width:150px;
+  width:140px;
+  margin-bottom:5px;
 }
 
 .pb-waiting, .pb-confirm, .pb-error {
