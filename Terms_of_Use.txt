@@ -1,15 +1,16 @@
 PacBio DevNet Terms of Use
 
 Pacific Biosciences of California, Inc. ("Pacific Biosciences") provides you with access to 
-and use of this Pacific Biosciences' website ("Site") and the content thereon, subject to the
-following terms and conditions ("Terms"). Please read all of these Terms carefully, as your 
-continued use of this Site will indicate that you have read and understood these Terms and that
-you agree to be bound by all of these Terms. Access to and use of certain portions of this Site
-may be subject to additional terms and conditions, and such additional terms and conditions are
-in addition to those provided below. These Terms are subject to change without notice, so please
-read them regularly when accessing this Site, as your use of the Site will indicate your 
-agreement to be bound by the Terms then provided in this section of the Site. If you do not wish
-to be bound by these Terms, please exit this Site immediately.
+and use of this Pacific Biosciences' Developers Network (DevNet) website ("Site") and the 
+content thereon, subject to the following terms and conditions ("Terms"). Please read all of 
+these Terms carefully, as your continued use of this Site will indicate that you have read and 
+understood these Terms and that you agree to be bound by all of these Terms. Access to and use 
+of certain portions of this Site may be subject to additional terms and conditions, and such 
+additional terms and conditions are in addition to those provided below. These Terms are 
+subject to change without notice, so please read them regularly when accessing this Site, as 
+your use of the Site will indicate your agreement to be bound by the Terms then provided in 
+this section of the Site. If you do not wish to be bound by these Terms, please exit this Site 
+immediately.
 
 If you are using the Site on behalf of a company or other organization, you represent that you
 have the authority to bind that company or organization to these Terms, and the terms "you" and
