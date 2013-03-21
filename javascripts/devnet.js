@@ -68,7 +68,15 @@ $(document).ready(function() {
             $.liteDialog('hide');
             window.location = $('.pb-regform a').attr('href');
         });
-
+        
         return false;
+    });
+
+	// Track all links with Google Analytics
+    $('a').click(function(e) {
+      try {
+        var pageTracker = _gat._getTracker("UA-13166584-2");
+        pageTracker._trackPageview($(this).attr('href'));
+      } catch(err) { }
     });
 });
