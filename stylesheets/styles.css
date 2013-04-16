@@ -40,6 +40,15 @@ details, summary {
   display:block;
 }
 
+bigdetails, bigsummary {
+  display:block;
+  width:800px;
+}
+
+
+
+
+
 img {
   border:none;
 }
@@ -197,15 +206,24 @@ section {
   padding:10px;
 }
 
+
 #pb-devnet {
   clear:both;
   width:520px;
   margin:0;
   padding:20px 0 0px 320px;
   background-image:url(../images/devnet_home.png);
+  /*background-image:url(../images/pacbiorsii.jpg);*/
   background-repeat:no-repeat;
   background-position:0px 30px;
 }
+
+
+#pb-generic {
+  clear:both;
+  width:1040px;
+}
+
 
 #pb-news {
   padding:10px;
@@ -332,12 +350,11 @@ section {
 }
 
 summary {
-  width:120px;
+  width:150px;
   margin-bottom:6px;
   padding-left:4px;
   color:#fff;
   font-size:11px;
-
   border-radius:4px;
   
   background: #555;
@@ -354,8 +371,39 @@ summary:hover {
   color:#6CF;
 }
 
+
+bigsummary {
+  width:800px;
+  margin-bottom:6px;
+  padding-left:4px;
+  color:#fff;
+  font-size:11px;
+  border-radius:4px;
+
+  background: #555;
+  background: -moz-linear-gradient(left, #333 0%, #888 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#333), color-stop(100%,#888));
+  background: -webkit-linear-gradient(left, #333 0%,#888 100%);
+  background: -o-linear-gradient(left, #333 0%,#888 100%);
+  background: -ms-linear-gradient(left, #333 0%,#888 100%);
+  background: linear-gradient(left, #333 0%,#888 100%);
+}
+
+bigsummary:hover {
+  cursor:pointer;
+  color:#6CF;
+}
+
+
 details details {
   margin-left:10px;
+  width:200px;
+}
+
+
+bigdetails bigdetails{
+  margin-left:10px;
+  width:200px;
 }
 
 footer {
