@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="shortcut icon" href="http://pacb.com/sites/default/files/pacbio_favicon.png" type="image/x-icon" />
+  
+    <title>PacBio DevNet</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav>
+          <a id="pacbiologo" href="http://pacb.com"><img src="images/pacbio_logo.png" alt="Pacific Biosciences" /></a>
+          <ul>
+            <li><a href="http://www.smrtcommunity.com">Home</a></li>
+            <li><a href="http://www.pacbiosamplenet.com">SampleNet</a></li>
+            <li><a href="http://www.pacbiodevnet.com">DevNet</a></li>
+            <li><a href="http://www.pacbioportal.com">Customers</a></li>
+            <li><a href="http://pacb.com/applications/overview">Applications</a></li>
+          </ul>
+        </nav>
+        <form action="index.html" id="sitesearch">
+          <input name="cx" type="hidden" value="012727368632080236692:zarsmzfor8i" />
+          <input name="cof" type="hidden" value="FORID:9" />
+          <input id="searchstring" name="q" onblur="this.value=!this.value?'Search':this.value;" onclick="this.value='';" onfocus="this.select()" type="search" value="Search" />
+        </form>
+        <img id="smrtcommunity" src="images/smrt_community.png"></img>
+      </header>
+
+      <div id="contents">
+        <section id="pb-search-results">
+          <div id="cse-search-results">
+            <h1>Search Results</h1>
+          </div>
+        </section>
+
+        <section id="pb-generic">
+          <div class="section-head">
+            <h2>Code</h2>
+          <p class="legalese">View, download, and contribute bleeding edge code for production and research. Access and/or use is subject to the DevNet <a href="Terms_of_Use.html">Terms of Use</a>.</p>
+          <br>
+          <br>
+          </div>
+       
+          <div>
+            <bigdetails open>
+              <bigsummary><span>Officially supported software</span></bigsummary>
+                <ul><h4><i>Exclusive and escalated support via the <a href="http://www.pacbioportal.com">Customer Portal</a> where enquiries will be answered within 2-3 days.  Enquiries on <a href="https://github.com/PacificBiosciences/SMRT-Analysis/issues">GitHub issues</a> will be answered at developer's discretion.</i></h4></ul> 
+                <ul>
+                  <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/">SMRT® Analysis:</a> Powerful software suite for sequence alignment, assembly, variant detection, and base modification discovery.</li>
+                </ul>
+             </bigdetails>
+
+             <bigdetails open>
+             <bigsummary><span>Developer supported software</span></bigsummary>
+                <ul><h4><i>Developer support via GitHub issues.  Enquiries will be answered at developer's discretion</i></h4></ul>
+                <h4>Utilities</h4>
+                <ul>
+                  <li><a href="https://github.com/PacificBiosciences/blasr">Blasr:</a> C++ long-read aligner for PacBio reads (Basic Local Alignment with Successive Refinement).</li>
+                  <li><a href="https://github.com/PacificBiosciences/pbcore">pbcore:</a> Python module for processing PacBio data files and building PacBio bioinformatics applications.</li>
+                  <li><a href="https://github.com/PacificBiosciences/pbh5tools">pbh5tools:</a> Python toolset (depends on pbcore) for interrogating PacBio® HDF5 files (cmp.h5, bas.h5).</li>
+                  <li><a href="https://github.com/PacificBiosciences/R-pbh5">R-pbh5:</a> R package for interrogating PacBio HDF5 files (cmp.h5, bas.h5).</li>
+                  <li><a href="https://github.com/PacificBiosciences/R-pbutils">R-pbutils:</a> R package with various plotting and analysis utilities.</li>
+                  <li><a href="https://github.com/PacificBiosciences/stsPlots">stsplots:</a> R script to plot primary analysis quality control metrics.</li>
+                </ul>
+                <h4>Variant Detection</h4>
+                <ul>
+                  <li><a href="https://github.com/PacificBiosciences/ConsensusCore">ConsensusCore:</a> C++ library of multiple-sequence consensus routines with SWIG bindings.</li>
+                  <li><a href="https://github.com/PacificBiosciences/GenomicConsensus">Genomic Consensus:</a> Python script for variant and consensus calling (Quiver algorithm).</li>
+                  <li><a href="https://github.com/PacificBiosciences/CorrelatedVariants">Correlated Variants:</a> Python script that quantifies relationships between co-located variants.</li>
+                </ul>
+                <h4>Genome Assembly</h4>
+                <ul>
+                   <li><a href="https://github.com/PacificBiosciences/HGAP-Script">HGAP-script:</a> Shell script to run the Hierarchical Genome Assembly Process with advanced tuning parameters (depends on SMRT Analysis)</li>
+                </ul>
+            </bigdetails>   
+ 
+            <bigdetails open>             
+            <bigsummary><span>Unsupported software</span></bigsummary>
+                <ul><h4><i>The source is the force. Enquiries may not be answered.</i></h4></ul>
+                <ul>
+                  <li><a href="https://github.com/PacificBiosciences/cDNA_primer">cDNA_primer:</a> Python toolset for identifying primers and polyA tails in PacBio transcriptome data</li>
+                  <li><a href="https://github.com/PacificBiosciences/pbdagcon">pbdagcon:</a> Python implementation of DAG (Directed Acyclic Graph) Consensus for multiple sequence alignment</li>
+                  <li><a href="https://github.com/PacificBiosciences/HBAR-DTK">HBAR-DTK:</a> Python toolkit for Hierarchy based assembler development</li>
+                 <ul>
+            </bigdetails>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div id="footer-links">
+      iii <a href="http://twitter.com/#!/pacbio"><img src="images/twitter.png" alt="Follow us on Twitter" /></a>
+          <a href="http://www.youtube.com/PacificBiosciences"><img src="images/youtube.png" alt="Watch PacBio videos on YouTube" /></a>
+          <a href="http://www.linkedin.com/company/pacific-biosciences"><img src="images/linkedin.png" alt="Visit PacBio on LinkedIn" /></a>
+        </div>
+
+        <p><a href="Terms_of_Use.html">Terms of Use</a> | <a href="http://pacb.com/terms-of-use/index.html#trademarks">Trademarks</a> | <a href="MAILTO:devnet@pacificbiosciences.com">Contact Us</a></p>
+      </footer>
+ 
+      <div id="pb-dialog">
+        <div class="pb-signup">
+          <form class="pb-regform" action="http://programs.pacb.com/l/1652/2010-06-25/HH1Z1" method="POST">
+            <h2>Sign Up for DevNet Notifications</h2>
+            <input name="accept" type="hidden" value="accept" />
+            <input name="group1" type="hidden" value="academic" />
+            <input name="country" type="hidden" value="Earth" />
+            <fieldset>
+              <legend>Sign up to be notified about new SMRT<sup>&reg;</sup> Analysis and DevNet software content.</legend>
+              <ul>
+                <li>
+                  <label for="firstName">First Name</label>
+                  <input id="firstName" name="firstName" type="text" required />
+                </li>
+                <li>
+                  <label for="lastName">Last Name</label>
+                  <input id="lastName" name="lastName" type="text" required />
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" required />
+                </li>
+                <li>
+                  <label for="company">Organization</label>
+                  <input id="company" name="company" type="text" required />
+                </li>
+              </ul>
+            </fieldset>
+            <a href="">No thanks, continue to download</a>
+            <input type="submit" class="submit" name="Register" value="Submit">
+          </form>
+        </div>
+        <div class="pb-waiting">
+          <h2>Signing Up</h2>
+          <p>Please wait...</p>
+        </div>
+        <div class="pb-confirm">
+          <h2>Thank You for Signing Up!</h2>
+          <p>You will be notified about upcoming SMRT Analysis releases and software. Please continue to your download.</p>
+          <input type="button" value="Download" />
+        </div>
+        <div class="pb-error">
+          <h2>Sorry for the Inconvenience</h2>
+          <p>Sorry! Your signup information could not be processed at this time. Don't worry, though. You can click on the link again to signup later.</p>
+          <p>In the meantime, please continue to your download.</p>
+          <input type="button" value="Download" />
+        </div>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+    <script src="javascripts/jquery.details.min.js"></script> 
+    <script src="javascripts/jquery.bigdetails.min.js"></script>
+    <script src="javascripts/jquery.livequery.min.js"></script> 
+    <script src="javascripts/jquery.litedialog.min.js"></script> 
+    <script src="javascripts/jquery.cookie.js"></script> 
+    <script src="javascripts/scale.fix.js"></script>
+
+    <!-- Google Site Search -->
+    <script type="text/javascript">
+      var googleSearchIframeName = "cse-search-results";
+      var googleSearchFormName = "cse-search-box";
+      var googleSearchFrameWidth = 600;
+      var googleSearchDomain = "www.google.com";
+      var googleSearchPath = "/cse";
+    </script>
+    <script src="http://www.google.com/afsonline/show_afs_search.js"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      try {
+        var pageTracker = _gat._getTracker("UA-13166584-2");
+        pageTracker._trackPageview();
+      } catch(err) {}
+	</script>
+
+    <script src="javascripts/devnet.js"></script>
+  </body>
+</html>
