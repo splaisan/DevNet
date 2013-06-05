@@ -49,28 +49,66 @@
         
           <div id="pb-news">
             <h2><a href="https://github.com/PacificBiosciences/DevNet/wiki/News-and-Features">News and Features</a></h2>
-            <p>Introducing the <strong>PacBio RS II</strong>, which still delivers the <strong>longest reads</strong> and <strong>99.999%</strong> consensus accuracy, plus <strong>double</strong> the throughput of the original system.  <strong>SMRT Analysis 2.0.0</strong> is a pre-requisite for analyzing data from the PacBio RS II and include the following features:</p>
+            <p>Introducing the <strong>PacBio RS II</strong>, which still delivers the <strong>longest reads</strong> and <strong>99.999%</strong> consensus accuracy, plus <strong>double</strong> the throughput of the original system.  
+            <p></p>
+            <p><strong>SMRT Analysis 2.0.0</strong> is a <u>pre-requisite</u> for analyzing data from the PacBio RS II and <strong>SMRT Analysis 2.0.1</strong> is a <u>pre-requisite</u> for analyzing data from the P4 enzyme.  Please upgrade to take advantage of the following features:</p>
              <ul>
                <li>Microbial assembly using <strong>fully integrated HGAP</strong> in SMRT Portal</li>
-               <li>Analyze <strong>bacterial methylomes with the XL/C2</strong> polymerase/chemistry combination<li>
+               <li>Analyze <strong>bacterial methylomes with the P4/C2</strong> polymerase/chemistry combination<li>
                <li>Streamlined <strong>reference sequence upload</strong> within SMRT Portal</li>
+               <li>Modification identification of <strong>6-methyladenosine (6-mA)</strong> and <strong>4-methylcytosine (4mC)</strong></li>
              </ul>
-             <p>Please upgrade at your earliest convenience as we will be accelerating the release of v2.0.1 in anticipation of some exciting new features.  We will continue to support upgrades performed in the order of software releases (1.4 --> 2.0.0 --> 2.0.1).  SMRT Analysis 2.0.1 will also fix bugs with barcode analysis.</p>
-             <p>Watch the <a href="http://programs.pacificbiosciences.com/l/1652/2013-04-15/2sv8ym">webinar</a> (Best on Chrome) for an overview.</p>
+             <p>Watch the <a href="http://programs.pacificbiosciences.com/l/1652/2013-04-15/2sv8ym">SMRT Analysis 2.0 webinar</a> and <a href="http://programs.pacificbiosciences.com/l/1652/2013-06-05/2t2dsf">P4 polymerase webinar</a> (Best on Chrome) for an overview.</p>
           </div>
         </section>
 
         <section id="pb-releases">
           <div class="section-head">
             <h2>SMRT Analysis</h2>
-            <p>PacBio's open source software suite for single molecule, <br />real-time sequencing.</p>
+            <p>PacBio's open source software suite for single molecule, <br />real-time sequencing. <strong>The supported upgrade path is <br>SMRT Analysis 1.4.0 → 2.0.0 →2.0.1</strong></p>
             <p class="legalese">Access and/or use is subject to the DevNet <a href="Terms_of_Use.html">Terms of Use</a>.</p>
           </div>
        
           <div>
             <details open>
-              <summary><span>v2.0.0</span></summary>
+              <summary><span>v2.0.1</span></summary>
   
+              <h4>Downloads (Released 6/5/2013)</h4>
+              <ul>
+
+                <li><a class="register" href="http://programs.pacificbiosciences.com/l/1652/2013-06-04/2t28z5">smrtanalysis-2.0.1-centos-5.3.tgz</a></li>
+                <li><a  class="register" href="http://programs.pacificbiosciences.com/l/1652/2013-06-04/2t28z7">smrtanalysis-2.0.1-centos-5.6.tgz</a></li>
+                <li><a class="register" href="http://programs.pacificbiosciences.com/l/1652/2013-06-04/2t28z9">smrtanalysis-2.0.1-ubuntu-8.04.tgz<a></li>
+                <li><a class="register" href="http://programs.pacificbiosciences.com/l/1652/2013-06-04/2t28zc">smrtanalysis-2.0.1-ubuntu-10.04.tgz<a></li>
+<!--
+               <li><a class="register" href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-centos-5.6.tgz">smrtanalysis-2.0-centos-5.6.tgz</a> <a href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-centos-5.6.tgz.md5">md5</a></li>
+                <li><a class="register" href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-ubuntu-10.04.tgz">smrtanalysis-2.0-ubuntu-10.04.tgz</a> <a href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-ubuntu-10.04.tgz.md5">md5</a></li>
+-->
+              </ul>
+
+              <h4>Release Documentation</h4>
+              <ul>
+                <li><a href = "https://github.com/PacificBiosciences/SMRT-Analysis/wiki/SMRT-Analysis-Release-Notes-v2.0.1">SMRT Analysis Software Release Notes</a></li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/SMRT-Analysis-Software-Installation-v2.0.1">SMRT Analysis Software Installation Guide</a></li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/Troubleshooting-the-SMRT-Analysis-Suite">Troubleshooting SMRT Analysis</a></li>
+                <li><a href="http://files.pacb.com/software/smrtanalysis/2.0.0/doc/Running SMRT Analysis on Amazon.pdf">Running SMRT Analysis on Amazon.pdf</a></li>
+                <li><a href="http://files.pacb.com/software/smrtanalysis/2.0.0/doc/smrtportal/help/SMRT_Portal.htm">SMRT Portal Help</a></li>
+                <li><a href="http://files.pacb.com/software/smrtanalysis/2.0.0/doc/smrtview/help/SMRT_View.htm">SMRT View Help</a></li>
+             </ul>
+              <h4>Developer and Superuser Documentation</h4>
+              <ul>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/SMRT-Pipe-Reference-Guide-v2.0">SMRT Pipe Reference Guide</a><li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/Secondary-Analysis-Web-Services-API-v2.0">Secondary Analysis Web Services API</a></li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/Instrument-Control-Web-Services-API">Instrument Control Web Services API</a></li>
+              </ul>
+            </details>
+
+            <details open>
+            <summary><span>Previous Releases</span></summary>
+
+            <details>
+              <summary><span>v2.0.0</span></summary>
+
               <h4>Downloads (Released 5/14/2013)</h4>
               <ul>
 
@@ -101,8 +139,6 @@
               </ul>
             </details>
 
-            <details>
-            <summary><span>Previous Releases</span></summary>
 
             <details>
               <summary><span>v1.4.0</span></summary>
@@ -115,20 +151,28 @@
 
               <h4>Release Documentation</h4>
               <ul>
-                <li><a href="http://pacb.com/Tutorials/SMRT_Analysis_v14/story.html">SMRT Analysis Overview</a> (<a href="http://www.pacificbiosciences.com/Tutorials/SMRT_Analysis_v14/story_html5.html">iOS version</a>)</li>
-                <li><a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/SMRT Analysis Release Notes (v1.4.0).pdf">SMRT Analysis Release Notes (v1.4.0).pdf</a></li>
-                <li><a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/SMRT Analysis Software Installation (v1.4.0).pdf">SMRT Analysis Software Installation (v1.4.0).pdf</a></li>
-                <li><a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/Running SMRT Analysis on Amazon.pdf">Running SMRT Analysis on Amazon.pdf</a></li>
+<!--
+               <li><a class="register" href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-centos-5.6.tgz">smrtanalysis-2.0-centos-5.6.tgz</a> <a href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-centos-5.6.tgz.md5">md5</a></li>
+                <li><a class="register" href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-ubuntu-10.04.tgz">smrtanalysis-2.0-ubuntu-10.04.tgz</a> <a href="http://files.pacb.com/software/smrtanalysis/2.0/smrtanalysis-2.0-ubuntu-10.04.tgz.md5">md5</a></li>
+-->
               </ul>
 
-              <h4>User Documentation</h4>
+              <h4>Release Documentation</h4>
               <ul>
-                <li><a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/smrtportal/Help/SMRT_Portal.htm">SMRT Portal Help</a></li>
-                <li><a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/smrtview/Help/SMRT_View.htm">SMRT View Help</a></li>
-                <li><a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/SMRT Pipe Reference Guide.pdf">SMRT Pipe Reference Guide.pdf</a></li>
+                <li><a href = "https://github.com/PacificBiosciences/SMRT-Analysis/wiki/SMRT-Analysis-Release-Notes-v2.0">SMRT Analysis Software Release Notes</a></li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/SMRT-Analysis-Software-Installation-v2.0">SMRT Analysis Software Installation Guide</a></li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/Troubleshooting-the-SMRT-Analysis-Suite">Troubleshooting SMRT Analysis</a></li>
+                <li><a href="http://files.pacb.com/software/smrtanalysis/2.0.0/doc/Running SMRT Analysis on Amazon.pdf">Running SMRT Analysis on Amazon.pdf</a></li>
+                <li><a href="http://files.pacb.com/software/smrtanalysis/2.0.0/doc/smrtportal/help/SMRT_Portal.htm">SMRT Portal Help</a></li>
+                <li><a href="http://files.pacb.com/software/smrtanalysis/2.0.0/doc/smrtview/help/SMRT_View.htm">SMRT View Help</a></li>
+             </ul>
+              <h4>Developer and Superuser Documentation</h4>
+              <ul>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/SMRT-Pipe-Reference-Guide-v2.0">SMRT Pipe Reference Guide</a><li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/Secondary-Analysis-Web-Services-API-v2.0">Secondary Analysis Web Services API</a></li>
+                <li><a href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki/Instrument-Control-Web-Services-API">Instrument Control Web Services API</a></li>
               </ul>
             </details>
-
 
 
             <details>
@@ -192,7 +236,7 @@
         </section>
 
         <section id="pb-community">
-          <div class="section-head">
+         <div class="section-head">
             <h2>Community</h2>
             <p>Share, learn about, discover and explore software and data for SMRT Sequencing.</p>
           </div>
@@ -201,35 +245,35 @@
             <h3><a target="github" href="https://github.com/PacificBiosciences/SMRT-Analysis/wiki">Tutorials</a></h3>
             <ul>
               <li>
-                  <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/De-Novo-Assembly"><i>De novo</i> assembly</a>, 
-                  <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Base-modification-analysis">Base Modification</a>, 
-                  <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Transcriptome-Analysis">Transcripts</a>, 
+                  <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/De-Novo-Assembly"><i>De novo</i> assembly</a>,
+                  <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Base-modification-analysis">Base Modification</a>,
+                  <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Transcriptome-Analysis">Transcripts</a>,
                   <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/Barcoding">Barcoding</a>,
                   <a target="github" href="https://github.com/PacificBiosciences/Bioinformatics-Training/wiki/">Bioinformatics training</a>
             </ul>
 
-            <h3><a target="github" href="https://github.com/PacificBiosciences/DevNet/wiki/Datasets">Datasets</a>: Ecoli, Human cDNA, and others 
-<!--              <a target="github" href="https://github.com/PacificBiosciences/DevNet/wiki/How-To's-and-Examples">Examples</a> 
+            <h3><a target="github" href="https://github.com/PacificBiosciences/DevNet/wiki/Datasets">Datasets</a>: Ecoli, Human cDNA, and others
+<!--              <a target="github" href="https://github.com/PacificBiosciences/DevNet/wiki/How-To's-and-Examples">Examples</a>
               and <a target="pacb" href="http://pacb.com/news_and_events/publications/">Publications</a></h3>
--->  
-            <h3>Discussion: 
-              <a target="github" href="https://github.com/PacificBiosciences/SMRT-Analysis/issues">SMRT Analysis issues</a>, 
+-->
+            <h3>Discussion:
+              <a target="github" href="https://github.com/PacificBiosciences/SMRT-Analysis/issues">SMRT Analysis issues</a>,
               <a target="seqanswers" href="http://seqanswers.com/forums/tags.php?tag=pacbio">SEQanswers</a>
             </h3>
-  
+
             <h3>File format specifications</h3>
             <ul>
               <li>
                 <a href="http://files.pacb.com/software/instrument/2.0.0/bas.h5 Reference Guide.pdf">base file</a>,
-                <a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/cmp.h5 Reference Guide.pdf">alignment</a>, 
-                <a href="http://files.pacb.com/software/instrument/2.0.0/Metadata Output Guide.pdf">metadata</a>, 
-                <a href="http://files.pacb.com/software/instrument/1.3.1/Statistics Output Guide.pdf">statistics</a>, 
-                <a href="http://files.pacb.com/software/instrument/2.0.0/Run Definition File Format.pdf">run definition</a>, 
+                <a href="http://files.pacb.com/software/smrtanalysis/1.4/doc/cmp.h5 Reference Guide.pdf">alignment</a>,
+                <a href="http://files.pacb.com/software/instrument/2.0.0/Metadata Output Guide.pdf">metadata</a>,
+                <a href="http://files.pacb.com/software/instrument/1.3.1/Statistics Output Guide.pdf">statistics</a>,
+                <a href="http://files.pacb.com/software/instrument/2.0.0/Run Definition File Format.pdf">run definition</a>,
 <!--                <a href="http://files.pacb.com/software/instrument/1.3.1/Consumables Barcode Layout Guide.pdf">consumables barcodes</a>
 -->
               </li>
             </ul>
-          
+
 
           <h3>Software</h3>
           <ul>
@@ -249,7 +293,6 @@
 
         <p><a href="Terms_of_Use.html">Terms of Use</a> | <a href="http://pacb.com/terms-of-use/index.html#trademarks">Trademarks</a> | <a href="MAILTO:devnet@pacificbiosciences.com">Contact Us</a></p>
       </footer>
- 
       <div id="pb-dialog">
         <div class="pb-signup">
           <form class="pb-regform" action="http://programs.pacb.com/l/1652/2010-06-25/HH1Z1" method="POST">
@@ -300,11 +343,11 @@
       </div>
     </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
-    <script src="javascripts/jquery.details.min.js"></script> 
-    <script src="javascripts/jquery.livequery.min.js"></script> 
-    <script src="javascripts/jquery.litedialog.min.js"></script> 
-    <script src="javascripts/jquery.cookie.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="javascripts/jquery.details.min.js"></script>
+    <script src="javascripts/jquery.livequery.min.js"></script>
+    <script src="javascripts/jquery.litedialog.min.js"></script>
+    <script src="javascripts/jquery.cookie.js"></script>
     <script src="javascripts/scale.fix.js"></script>
 
     <!-- Google Site Search -->
@@ -325,8 +368,11 @@
         var pageTracker = _gat._getTracker("UA-13166584-2");
         pageTracker._trackPageview();
       } catch(err) {}
-	</script>
+        </script>
 
     <script src="javascripts/devnet.js"></script>
   </body>
 </html>
+
+
+
